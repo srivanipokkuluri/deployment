@@ -1,0 +1,38 @@
+.love-letter-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.love-letter {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  width: 80%;
+  max-width: 500px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.close-letter-btn {
+  margin-top: 15px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #ff4d6d;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.close-letter-btn:hover {
+  background-color: #e63950;
+}
